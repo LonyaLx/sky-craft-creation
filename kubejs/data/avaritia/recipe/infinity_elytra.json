@@ -1,0 +1,24 @@
+{
+  "type": "avaritia:extreme_smithing",
+  "addition": [
+    {
+      "item": "avaritia:crystal_matrix"
+    },
+    {
+      "item": "avaritia:enhancement_core"
+    },
+    {
+      "item": "avaritia:neutron"
+    }
+  ],
+  "base": {
+    "id": "minecraft:elytra"
+  },
+  "result": {
+    "count": 1,
+    "id": "avaritia:infinity_elytra"
+  },
+  "template": {
+    "id": "avaritia:upgrade_smithing_template"
+  }
+}

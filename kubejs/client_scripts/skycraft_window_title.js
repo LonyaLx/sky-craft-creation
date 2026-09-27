@@ -1,5 +1,5 @@
 // 启动完成后把本次随机祝福附加到游戏窗口标题后。
-const skyCraftTitleBase = "《天工创世》v1.1.0 --凉寻Lonya";
+const skyCraftTitleBase = "《天工创世》v1.1.1 --凉寻Lonya";
 const skyCraftTips = [
   "愿今天的每一次出发，都带着好心情。",
   "新的一天，愿你眼里有光，心中有暖。",

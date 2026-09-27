@@ -26,7 +26,7 @@
     "centeredBiomes": [],
     
     // Should nether use custom generation? [default: true]
-    "isCustom": true
+    "isCustom": false
   },
   
   "Overworld": {

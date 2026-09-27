@@ -1,14 +1,17 @@
-# 天工创世 · 项目记忆（2026-09-24）
+# 天工创世 · 项目记忆（2026-09-28）
 
 ## 当前状态
 - 桌面包：`C:\Users\admin\Desktop\NewAgeSky-1.21.1`
 - 测试实例：`D:\我的世界整合包\1\versions\测试`
-- Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 218。
-- 游戏窗口标题：《天工创世》v1.1.0 --凉寻Lonya。
+- Minecraft 1.21.1 + NeoForge 21.1.249 + Java 21；mods 232。
+- 游戏窗口标题：《天工创世》v1.1.1 --凉寻Lonya。
 - 整合包英文名称：sky-craft-creation。内部技术命名空间同步为 `sky-craft-creation`。
 - FTB Quests：23 章、7 组、857 个任务、2 个奖励表；最终目标为创造收敛核心。
 - 不安装 data_energistics、Refined Storage、apothicenchantingaddition。
 - 渲染组合：Sodium + Iris。
+- 下界恢复原版生成（SkyblockBuilder Nether.isCustom=false）；新生成区块使用原版下界地形与 Mystical Agriculture 灵魂石/离魂矿矿脉。
+- 已补齐 ProjectE、Integrated Dynamics、Ender Drives、Apotheosis、Functional Chemical、ProjectExpansion 等缺失物品汉化；全量物品/方块名称汉化缺口为 0。
+- 空岛来源复扫发现并修复 Avaritia 无尽水桶所需粉雪桶：新增“桶 + 4 雪球 → 粉雪桶”。
 - 新增终局合成、ProjectE 与无尽装备章节，最终目标为创造收敛核心。
 - 已加入 Create Ultimine 1.21.1-neoforge-1.3.3。
 
@@ -47,7 +50,7 @@
 - 游戏已关闭；后续测试或修改前不要覆盖运行中的任务文件。
 
 ## 下次继续
-- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.1.0-CurseForge.zip`，验证 164 个远程模组下载和 54 个内置模组安装。
+- 用 PCL/HMCL 实际导入 `天工创世-发布/01-整合包/天工创世-1.1.1-CurseForge.zip`，验证 175 个远程模组下载和 57 个内置模组安装。
 - 在游戏内实际制作一条创造链，重点验证 Extreme Package Crafter、封包编码器和最终 ME 创造存储元件。
 - 检查新增中间物在 JEI 中的合成树和批量产出显示。
 - 继续从任务物品反查根来源，排查“有配方但配方链自我循环”的材料。
@@ -56,8 +59,8 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.1.0-CurseForge.zip`；164 个模组由启动器下载，54 个随包提供。大小与 SHA-256 以发布目录的 `03-校验/SHA256.txt` 为准。
-- 安装包 SHA-256：以 `天工创世-发布\03-校验\SHA256.txt` 为准。
+- 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：017FCDFFC42ACB3306C6D80D693173FA2A1EF8DA9376D78F242B340AF0167D15。
+- 安装包 SHA-256：017FCDFFC42ACB3306C6D80D693173FA2A1EF8DA9376D78F242B340AF0167D15。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。
 - 启动器图标：`PCL/Logo.png`；游戏窗口图标：`config/customwindowtitle/icon.png`，均使用 `天工创世图标v4.jpg` 生成。
@@ -65,7 +68,7 @@
 - 启动随机文案：`kubejs/startup_scripts/skycraft_launch_wish.js`，内含 100 条阳光祝福，每次启动随机输出一条到启动日志。
 - 游戏窗口标题：`kubejs/client_scripts/skycraft_window_title.js` 在启动后随机选择一条文案，将窗口标题设置为“原标题 tips:随机文案”，并在客户端 tick 中周期校验、进入世界时再次补齐，防止被其他模组覆盖。
 - 模组更新备份：`_excluded/mod_backups/pre_update_20260924_230041/`。
-- 2026-09-24 窗口标题随机 tips：已实机启动验证，窗口标题会显示为“《天工创世》v1.1.0 --凉寻Lonya tips:随机文案”。
+- 2026-09-24 窗口标题随机 tips：已实机启动验证，窗口标题会显示为“《天工创世》v1.1.1 --凉寻Lonya tips:随机文案”。
 - 每个版本在 `04-更新日志\<版本号>.txt` 记录更新，发布目录只保留当前版本包和一张无版本号封面。
 - 更新日志规则：每次修改都追加到当前版本日志，并在每组记录前写 `更新时间：YYYY-MM-DD HH:mm`；未明确指定新版本号时保持同一日志文件，指定新版本号后重新生成对应版本号的日志。
 - 模板配方备份：`_excluded/avaritia_template_20260910_222858/`。

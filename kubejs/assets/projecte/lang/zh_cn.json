@@ -1,0 +1,12 @@
+{
+  "item.projecte.gem_helmet": "宝石头盔",
+  "item.projecte.gem_chestplate": "宝石胸甲",
+  "item.projecte.gem_leggings": "宝石护腿",
+  "item.projecte.gem_boots": "宝石靴子",
+  "item.projecte.void_ring": "虚空戒指",
+  "entity.projecte.fire_projectile": "火球",
+  "entity.projecte.homing_arrow": "追踪箭",
+  "entity.projecte.nova_cataclysm_primed": "引爆的新星灾变",
+  "entity.projecte.nova_catalyst_primed": "引爆的新星催化剂",
+  "entity.projecte.swrg_projectile": "SWRG 弹射物"
+}

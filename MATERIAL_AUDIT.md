@@ -67,3 +67,9 @@
 - 锇完整起步链：筛矿获得 4 锇碎矿 → 1 粗锇 → 熔炼/高炉成锇锭。
 - 新增蜜脾首件来源：4 糖 + 黄色染料 + 线。
 - 新增锇种子和蜜糖种子首件来源，解除农业种子循环。
+## 2026-09-28 空岛来源与汉化复扫
+- 原版下界恢复后，Mystical Agriculture 的灵魂石/离魂矿矿脉恢复，离魂粉与离魂粉来源不再缺失。
+- 全量物品汉化扫描补齐 ProjectE、Integrated Dynamics、Ender Drives、Apotheosis、Functional Chemical、ProjectExpansion、AE2 Import Export Card、AppGen、FTB Filter System、Moonlight、Pipe Connector 等缺失条目。
+- 全量扫描结果：物品/方块/流体名称汉化缺口为 0（测试/技术方块也已补名）。
+- 发现并修复唯一剩余任务链来源缺口：Avaritia 无尽水桶需要原版粉雪桶；新增“桶 + 4 雪球 → 粉雪桶”，雪球可由 AE2 熵冷却水获得。
+- 其余无普通配方候选为机器动态产物、作物方块、流体、装饰/技术方块，不属于空岛来源缺口。

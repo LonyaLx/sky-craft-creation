@@ -1,4 +1,69 @@
+## [1.1.1] - 2026-09-28
+
+### 1.1.1 发布摘要
+- 模组数量 218 → 232；新增 Iron Furnaces、Dyson Cube Project、Click Machine、Simple Backups、Overloaded Armor Bar、Polymorph、FTB Quest Enhance、Euphoria Patcher、AllTheCompressed、AllTheModium、AllTheOres、Almost Unified、Almost Unified IE、Ex Machinis Deorum。
+- 下界恢复原版生成；补齐 ProjectE 等模组物品汉化；修复 Avaritia 无尽水桶所需粉雪桶来源。
+
+### 物品汉化与空岛来源复扫
+- 补齐 ProjectE 缺失翻译：宝石头盔、宝石胸甲、宝石护腿、宝石靴子、虚空戒指及相关实体名。
+- 补齐 Integrated Dynamics、Ender Drives、Apotheosis、Functional Chemical、ProjectExpansion、AE2 Import Export Card、AppGen、FTB Filter System、Moonlight、Pipe Connector 等物品/方块翻译；全量扫描后物品/方块/流体名称汉化缺口为 0。
+- 其余无普通配方的候选均为机器动态产物、作物方块、流体或装饰/技术方块，不属于空岛来源缺口。
+- 空岛来源复扫发现 Avaritia 无尽水桶所需的原版粉雪桶没有来源；新增“桶 + 4 雪球 → 粉雪桶”，雪球可由 AE2 熵冷却水获得。
+
+### 下界恢复原版生成
+- 将 SkyblockBuilder 的 `Nether.isCustom` 设为 `false`，新生成的下界恢复原版地形、生物群系、结构与灵魂石/离魂矿矿脉。
+- 清除 `world.json5` 中已停用的自定义下界表层（基岩 + 3 层地狱岩）。
+- 已有存档中已生成的下界区块不会自动重建；需要新建世界或删除对应下界 region 文件后才会生成原版下界。
+- 撤销此前为绕过缺失下界而临时添加的灵魂石/离魂矿 KubeJS 配方，改由原版下界提供来源。
+
+### 新增模组批次（2026-09-28）
+- 新增 Dyson Cube Project 1.0.5、Click Machine 9.0.1、Simple Backups 1.21-4.0.30、Overloaded Armor Bar 2、Polymorph 1.1.0+1.21.1、FTB Quest Enhance 1.21.1-neoforge-3.11、Euphoria Patcher 1.10.5-r5.9.3-neoforge；模组数量 225 → 232。
+- ME Requester 1.5.0、FastFurnace 9.0.1、AE2-FTBquest-Detector 0.6.2、ModernFix 5.27.24 已在包内，未重复添加。
+- ConnectedTexturesMod for Fabric 与 Tweakfork 为 Fabric 专用，未加入 NeoForge 实例；当前已使用 NeoForge 版 CTM 1.2.1+3 与 Tweakeroo 移植 Tweakerge 0.4.3。
+- Euphoria Patcher 为 Complementary 光影附加模组，配合现有 Iris + ComplementaryReimagined_r5.9.zip 使用；本次未替换光影包本体。
+- 已同步桌面源包与 PCL 测试实例，新增 7 个 JAR 的 SHA-256 均一致。
+
+### 新增 Iron Furnaces
+- 新增 Iron Furnaces 4.3.2（NeoForge 1.21.1，CurseForge 项目 237664 / 文件 7034259），提供铜、铁、金、绿宝石、钻石、水晶、黑曜石、下界合金等分阶熔炉，并包含 AllTheModium / Vibranium / Unobtainium 联动熔炉；模组数量 224 → 225。
+
+### 下级精华获取途径
+- 空岛没有下级矿石，神秘农业原版只能靠杀怪（默认 20%）或挖矿获得下级精华；现新增筛矿来源。
+- 筛**泥土**即可获得 `下级精华`（普通筛 / 压缩筛 / 通量筛同步生效，已接入 AllTheCompressed 1x～9x）。
+- 倍率与现有筛矿规则完全对齐（次要资源档）：数量 ×3.0、概率 ×1.8；压缩筛为普通筛的 9 倍（n = 27）。
+- 单次判定概率：燧石 7.2% / 线 9% / 铁 11.52% / 金 14.4% / 钻石 18.72% / 下界合金 23.04%（4% 基础 × 筛网系数 × 1.8），数量判定 n = 3。
+
+### AllTheCompressed 名称与汉化修复
+- 模组自带 `assets/allthecompressed/lang/zh_cn.json`（`沙块1x`、`Dust 1x`、`Moss Block 1x` 等）优先级高于 `kubejs/assets`，中文名与 JEI 搜索都被它顶掉；现改用 KubeJS `generateAssets('last')` 在最后资源阶段覆盖，已验证生效。
+- 名称统一为「等级x压缩 + 原物品中文名」：`1x压缩沙子`、`2x压缩沙子`、`1x压缩沙砾`、`1x压缩尘土`、`1x压缩红沙`、`1x压缩泥土`、`1x压缩灵魂沙`、`1x压缩苔藓块`、`1x压缩粉碎下界岩/末地石/深板岩/黑石`、`1x压缩圆石`、`1x压缩铜块` 等，1x～9x 全部同名规则。
+- 名称来源：解析 mod 自带压缩配方的原始物品（如 `allthecompressed:dust_1x` ← `exdeorum:dust`），再取该物品在整合包中实际显示的中文译名，保证与未压缩物品同名；JEI 可用「压缩」或物品名（沙子/尘土/铜块等）搜索到。
+- 1794 个方块名 + 物品组/提示共 1796 条全部中文化，无英文残留。
+
+### 筛子兼容 AllTheCompressed 1x～9x
+- 通量筛（Ex Machinis）新增 1x～9x 配方映射：一个 Nx 压缩块按 `9 × 等级` 次普通筛结算（2x = 18 次、9x = 81 次），概率与普通筛一致。
+- Ex Compressum 重型筛改为可投入 1x～9x，结算 rolls 同步为 `9 × 等级`。
+- Ex Deorum 压缩筛的 `exdeorum:compressed/*` 标签改为容纳 1x～9x，手动压缩筛可筛选全部等级（单次仍按 1x 的量结算）。
+- 通量锤保持原规则：1x～9x 破碎后仍是对应等级的压缩方块。
+- 修复 KubeJS 读取配方 JSON 的方式（改用 Gson `get()/has()` + `recipe.save()`）：此前压缩筛倍率、重型筛 AllTheCompressed 输入、通量筛压缩配方实际都未生效，现已全部写入成功。
+- 同时修复通量锤 1x～9x 脚本在 Rhino 下 `const` 声明于循环体内导致的 `redeclaration` 报错。
+
+### 压缩筛矿路线统一
+- 移除 Ex Deorum 与 Ex Compressum 的 `compressed_*` 压缩方块产出配方，并从 JEI、创造页签和压缩筛标签中隐藏；压缩筛矿只使用 `allthecompressed:*_1x`。
+- Ex Compressum 重型筛改为消耗 `allthecompressed:*_1x`，生成判定次数固定为 9；无 AllTheCompressed 对应物品的 3 条碎岩配方移除。
+- 普通筛输出倍率：次要资源 `3.0x`、矿物碎片 `3.75x`、稀有资源 `2.25x`；概率统一 `1.8x`，最高 100%。
+- AllTheCompressed 1x 压缩筛输出严格为对应普通筛的 `9x`：次要资源 `27.0x`、矿物碎片 `33.75x`、稀有资源 `20.25x`，概率与普通筛相同。
+- 原 Ex Deorum 压缩配方内部只有 7 次判定，因此编辑原配方时使用最终压缩倍率除以 7：次要资源 `3.857143x`、矿物碎片 `4.821429x`、稀有资源 `2.892857x`，这样最终结果等于普通筛的 9 倍。
+- FTB Quests 的压缩沙砾、沙子、尘土奖励同步改为 AllTheCompressed 1x 版本。
+- 通量筛子新增 AllTheCompressed 1x 普通筛配方映射，单个 1x 压缩块按 9 次普通筛产出结算。
+- 通量锤兼容 AllTheCompressed 1x～9x，破碎后保持相同压缩等级并输出对应的下一阶段压缩方块。
+- 补全 AllTheCompressed 全部 1794 个方块中文翻译；1x 名称统一为“1x压缩 + 对应物品名”，JEI 可通过“压缩”“沙子”“铜块”等关键字搜索。
 ## [1.1.0] - 2026-09-25
+
+### KubeJS 配方兼容与创造搜索修复
+- 修复 Ex Compressum 重型筛、自然灵气材料和 Ex Deorum 铁筛网 ID 导致的 8 条配方错误。
+- 修复 Avaritia 极端锻造 template/base 字段、Useless Mod 配方分类及 Ex Compressum 空标签产生的全部相关警告。
+- 修复 Ex Compressum 重复压缩方块无法在创造模式搜索或 JEI 中找到的问题；这些物品仍从 Ex Compressum 页签隐藏，但保留在创造搜索中，并恢复沙子→压缩沙子以及压缩沙子→2x～9x压缩沙子的完整用途链。
+- 筛矿与压缩筛爆率均提升至 1.5 倍；矿石碎片、次要资源、稀有资源、新增筛矿掉落及压缩筛掉落同步提高。
+- 钻石与下界合金筛网不再产出各类石子（`_pebble`）；普通筛与压缩筛同步生效。
 
 ### 下界与末地空岛化
 - 启用 SkyblockBuilder 地表生成；主世界地表列表保持为空，继续维持空岛环境。

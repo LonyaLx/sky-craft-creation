@@ -1,0 +1,15 @@
+{
+  "item.enderdrives.ender_fluid_disk_1k": "1k 末影流体存储元件",
+  "item.enderdrives.ender_fluid_disk_4k": "4k 末影流体存储元件",
+  "item.enderdrives.ender_fluid_disk_16k": "16k 末影流体存储元件",
+  "item.enderdrives.ender_fluid_disk_64k": "64k 末影流体存储元件",
+  "item.enderdrives.ender_fluid_disk_256k": "256k 末影流体存储元件",
+  "item.enderdrives.ender_fluid_disk_creative": "创造末影流体存储元件",
+  "item.enderdrives.ender_fluid_storage_component_1k": "1k 末影流体存储组件",
+  "item.enderdrives.ender_fluid_storage_component_4k": "4k 末影流体存储组件",
+  "item.enderdrives.ender_fluid_storage_component_16k": "16k 末影流体存储组件",
+  "item.enderdrives.ender_fluid_storage_component_64k": "64k 末影流体存储组件",
+  "item.enderdrives.ender_fluid_storage_component_256k": "256k 末影流体存储组件",
+  "item.enderdrives.ender_item_housing": "末影物品外壳",
+  "item.enderdrives.ender_fluid_housing": "末影流体外壳"
+}

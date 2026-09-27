@@ -163,5 +163,6 @@
   "parttype.integratedterminals.terminal_crafting_job.info": "管理并总览网络中所有的合成任务。",
   "parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers": "警告：无可用的合成处理器。只有在如联合合成之类的其它模组安装后才可用。",
   "parttype.integratedterminals.terminal_storage": "存储终端",
-  "parttype.integratedterminals.terminal_storage.info": "与存储在网络终端的原料进行可视化交互。"
+  "parttype.integratedterminals.terminal_storage.info": "与存储在网络终端的原料进行可视化交互。",
+  "item.integratedterminals.terminal_storage_portable.ender_upgraded": "末影升级"
 }

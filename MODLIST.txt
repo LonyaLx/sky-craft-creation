@@ -21,6 +21,11 @@ mods\ae2utility-1.7.9.jar
 mods\ae2wtlib-19.5.1.jar
 mods\aeinfinitybooster-neoforge-1.21.1-1.0.0.58.jar
 mods\alltheleaks-1.1.13+1.21.1-neoforge.jar
+mods\allthecompressed-1.21.1-4.4.0.jar
+mods\allthemodium-3.1.0_mc_1.21.1.jar
+mods\alltheores-3.2.0_neoforge_1.21.1.jar
+mods\almostunified-neoforge-1.21.1-1.4.2.jar
+mods\almostunified_ie-neoforge-1.21.1-1.0.1.jar
 mods\Apotheosis-1.21.1-8.8.0.jar
 mods\apothic_category_compat-2.1.0.jar
 mods\apothic_equipment-1.0.0-neoforge-1.21.1.jar
@@ -48,6 +53,7 @@ mods\botanypots-neoforge-1.21.1-21.1.44.jar
 mods\BrandonsCore-1.21.1-3.2.1.309.jar
 mods\buildinggadgets2-1.3.9.jar
 mods\Cell4-1.21.1-NeoForge-1.0.4fix3.jar
+mods\ClickMachine-1.21.1-9.0.1.jar
 mods\clienttweaks-neoforge-1.21.1-21.1.15.jar
 mods\cloth-config-15.0.140-neoforge.jar
 mods\Clumps-neoforge-1.21.1-19.0.0.1.jar
@@ -73,6 +79,7 @@ mods\Draconic-Evolution-1.21.1-3.1.4.633.jar
 mods\dummmmmmy-1.21-2.1.2-neoforge.jar
 mods\durabilitytooltip-1.2.0-neoforge-mc1.21.jar
 mods\dynamiclights-1.21.1.2NF.jar
+mods\dysoncubeproject-1.0.5.jar
 mods\EdivadLib-1.21-3.0.0.jar
 mods\enchdesc-neoforge-1.21.1-21.1.11.jar
 mods\enderdrives-neoforge-1.21.1-1.5.23.jar
@@ -81,7 +88,9 @@ mods\enderio_evolution-3.1.5-NeoForge-1.21.1.jar
 mods\enderio-8.2.12-beta.jar
 mods\entangled-1.3.21-neoforge-mc1.21.jar
 mods\entityculling-neoforge-1.11.2-mc1.21.1.jar
+mods\EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar
 mods\excompressum-neoforge-1.21.1-21.1.15.0.jar
+mods\exmachinis-deorum-1.21.1-4.0.3.jar
 mods\exdeorum-3.12.jar
 mods\extendedae_plus-1.6.2.jar
 mods\ExtendedAE-1.21-2.2.35-neoforge.jar
@@ -125,6 +134,7 @@ mods\integratedterminals-1.21.1-neoforge-1.10.0.jar
 mods\integratedtunnels-1.21.1-neoforge-1.12.0-792.jar
 mods\inventorysorter-1.21.1-24.0.24.jar
 mods\iris-neoforge-1.8.14-beta.1+mc1.21.1.jar
+mods\ironfurnaces-neoforge-1.21.1-4.3.2.jar
 mods\itemcollectors-1.1.10-neoforge-mc1.21.jar
 mods\Jade-1.21.1-NeoForge-15.10.6.jar
 mods\JadeAddons-1.21.1-NeoForge-6.1.1.jar
@@ -175,6 +185,7 @@ mods\NaturesAura-41.10.jar
 mods\neoecoae-21.2.0-beta4.jar
 mods\Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar
 mods\OctoLib-NEOFORGE-0.6.2+1.21.jar
+mods\overloadedarmorbar-neoforge-1.21-2.jar
 mods\PackagedAuto-1.21.1-4.0.8.21.jar
 mods\PackagedAvaritia-Re-1.21.1-3.0.1.5.jar
 mods\Patchouli-1.21.1-93-NEOFORGE.jar
@@ -184,17 +195,20 @@ mods\pipez-neoforge-1.21.1-1.2.31.jar
 mods\Placebo-1.21.1-9.9.2.jar
 mods\pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar
 mods\pocketstorage-1.2.5+1.21.1-b3.jar
+mods\polymorph-neoforge-1.1.0+1.21.1.jar
 mods\Powah-6.2.10.jar
 mods\prickle-neoforge-1.21.1-21.1.11.jar
 mods\productivebees-1.21.1-13.13.5.jar
 mods\productivebeesgenesis-1.0.8-hotfix.jar
 mods\ProjectE-1.21.1-PE1.1.0.jar
 mods\projectexpansion-1.21.1-1.0.6.jar
+mods\quest_enhance-1.21.1-neoforge-3.11.jar
 mods\Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar
 mods\reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar
 mods\rhino-2101.2.8-build.91.jar
 mods\Searchables-neoforge-1.21.1-1.0.2.jar
 mods\servercore-neoforge-1.5.19+1.21.1.jar
+mods\SimpleBackups-1.21-4.0.30.jar
 mods\simplemagnets-1.1.12c-neoforge-mc1.21.jar
 mods\SkyblockBuilder-21.1.36.jar
 mods\sodium-extra-neoforge-0.9.4+mc1.21.1.jar
@@ -219,4 +233,4 @@ mods\useless_stretcher-1.21.1-1.4.7.jar
 mods\wcwt-1.3.9.jar
 mods\ZeroCore2-1.21.1-2.4.21.jar
 
-# count: 218 mods
+# count: 232 mods

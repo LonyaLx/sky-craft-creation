@@ -1,4 +1,13 @@
 ae2:spatial_storage
+allthemodium:basalt_deltas
+allthemodium:crimson_forest
+allthemodium:desert
+allthemodium:desert_hills
+allthemodium:mining
+allthemodium:soul_sand_valley
+allthemodium:the_beyond
+allthemodium:the_other
+allthemodium:warped_forest
 compactmachines:machine
 integrateddynamics:meneglin
 minecraft:badlands

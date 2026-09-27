@@ -133,3 +133,12 @@ ServerEvents.recipes(event => {
     'minecraft:netherrack'
   ]).id('sky-craft-creation:materials/soul_soil')
 })
+
+// 粉雪桶：空岛没有原版雪原降雪，提供压缩雪球的替代来源，
+// 供 Avaritia 无尽水桶使用。雪球可由 AE2 熵冷却水获得。
+ServerEvents.recipes(event => {
+  event.shapeless('minecraft:powder_snow_bucket', [
+    'minecraft:bucket',
+    '4x minecraft:snowball'
+  ]).id('sky-craft-creation:materials/powder_snow_bucket')
+})

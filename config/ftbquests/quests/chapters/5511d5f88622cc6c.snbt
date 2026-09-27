@@ -449,7 +449,7 @@
 					id: "3E99D00F6FEC9B7D"
 					item: {
 						count: 1
-						id: "exdeorum:compressed_gravel"
+						id: "allthecompressed:gravel_1x"
 					}
 					type: "item"
 				}
@@ -458,7 +458,7 @@
 					id: "33BA86B035685E6E"
 					item: {
 						count: 1
-						id: "exdeorum:compressed_sand"
+						id: "allthecompressed:sand_1x"
 					}
 					type: "item"
 				}
@@ -467,7 +467,7 @@
 					id: "19CCFF4B129FD9A7"
 					item: {
 						count: 1
-						id: "exdeorum:compressed_dust"
+						id: "allthecompressed:dust_1x"
 					}
 					type: "item"
 				}
@@ -577,7 +577,7 @@
 				}
 				{
 					id: "6E0FAB5D2B519806"
-					item: { count: 1, id: "excompressum:auto_sieve" }
+					item: { count: 1, id: "exmachinis:flux_sieve" }
 					type: "item"
 				}
 			]
@@ -624,7 +624,7 @@
 				}
 				{
 					id: "5335534ADDCB98AD"
-					item: { count: 1, id: "excompressum:auto_heavy_sieve" }
+					item: { count: 1, id: "exmachinis:flux_hammer" }
 					type: "item"
 				}
 			]

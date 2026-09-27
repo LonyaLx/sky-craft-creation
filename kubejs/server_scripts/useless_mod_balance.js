@@ -1,6 +1,9 @@
 // 天工创世 · useless_mod 万象合金炉进度重做。
 // 合成方式：低阶使用原版工作台，高阶使用 Avaritia Tier 合成台。
 ServerEvents.recipes(event => {
+  // Remove the AE gift package recipe; it bypasses early AE2 progression.
+  event.remove({ output: 'useless_mod:ae2_gift_package' })
+
   // 保护性移除：禁止 Create 动力搅拌直接产出万象进度物品。
   const blockedMixingOutputs = [
     'useless_mod:useless_ingot_tier_1', 'useless_mod:useless_ingot_tier_2', 'useless_mod:useless_ingot_tier_3',

@@ -5,6 +5,12 @@ ServerEvents.recipes(event => {
 
   function tableRecipe(output, resultCount, ingredients, tier, recipeId) {
     var size = tableSize[tier]
+    var recipeResult = { count: resultCount }
+    if (typeof output === 'string') {
+      recipeResult.id = output
+    } else {
+      for (var key in output) recipeResult[key] = output[key]
+    }
     var total = ingredients.reduce(function (sum, entry) {
       return sum + entry[1]
     }, 0)
@@ -86,7 +92,7 @@ ServerEvents.recipes(event => {
       type: 'avaritia:shaped_table',
       pattern: pattern,
       key: key,
-      result: { id: output, count: resultCount },
+      result: recipeResult,
       tier: tier
     }).id(recipeId)
   }
@@ -231,7 +237,14 @@ ServerEvents.recipes(event => {
   ], 3, 'sky-craft-creation:endgame/pneumatic_creative_compressed_iron_block')
 
   // 第三组 · Tier 4 创造物品。
-  tableRecipe('mekanism:creative_energy_cube', 1, [
+  tableRecipe({
+    id: 'mekanism:creative_energy_cube',
+    components: {
+      'mekanism:energy': {
+        energy_containers: [0]
+      }
+    }
+  }, 1, [
     ['kubejs:endless_structure_core', 1],
     ['mekanism:ultimate_energy_cube', 4],
     ['draconicevolution:draconic_energy_core', 1],
