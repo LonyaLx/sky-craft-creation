@@ -63,6 +63,7 @@
 - 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：C0AEB94F4AEEB52515945EC8361582F042057B55396F9495AECF130040D66FDA。
 - 安装包 SHA-256：C0AEB94F4AEEB52515945EC8361582F042057B55396F9495AECF130040D66FDA。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
+- GitHub 发布规则：每个版本一个独立 Release，附件使用 ASCII 文件名 `sky-craft-creation-<版本>-CurseForge.zip`，保留各版本标签。
 - 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。
 - 启动器图标：`PCL/Logo.png`；游戏窗口图标：`config/customwindowtitle/icon.png`，均使用 `天工创世图标v4.jpg` 生成。
 - 游戏窗口图标配置：`config/customwindowtitle-client.toml` 中的 `icon = 'customwindowtitle/icon.png'`。
