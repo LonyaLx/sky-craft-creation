@@ -12,13 +12,13 @@
     }
   ],
   "base": {
-    "id": "minecraft:anvil"
+    "item": "minecraft:anvil"
   },
   "result": {
     "count": 1,
     "id": "avaritia:extreme_anvil"
   },
   "template": {
-    "id": "avaritia:upgrade_smithing_template"
+    "item": "avaritia:upgrade_smithing_template"
   }
 }

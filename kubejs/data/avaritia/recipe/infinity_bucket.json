@@ -12,13 +12,13 @@
     }
   ],
   "base": {
-    "id": "minecraft:bucket"
+    "item": "minecraft:bucket"
   },
   "result": {
     "count": 1,
     "id": "avaritia:infinity_bucket"
   },
   "template": {
-    "id": "avaritia:upgrade_smithing_template"
+    "item": "avaritia:upgrade_smithing_template"
   }
 }

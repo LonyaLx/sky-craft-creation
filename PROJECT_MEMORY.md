@@ -12,6 +12,7 @@
 - 下界恢复原版生成（SkyblockBuilder Nether.isCustom=false）；新生成区块使用原版下界地形与 Mystical Agriculture 灵魂石/离魂矿矿脉。
 - 已补齐 ProjectE、Integrated Dynamics、Ender Drives、Apotheosis、Functional Chemical、ProjectExpansion 等缺失物品汉化；全量物品/方块名称汉化缺口为 0。
 - 空岛来源复扫发现并修复 Avaritia 无尽水桶所需粉雪桶：新增“桶 + 4 雪球 → 粉雪桶”。
+- 1.1.1 发布前修复 Avaritia extreme_smithing 的 base/template 字段，并修复 Industrial Foregoing 激光钻头 JEI broken recipe。
 - 新增终局合成、ProjectE 与无尽装备章节，最终目标为创造收敛核心。
 - 已加入 Create Ultimine 1.21.1-neoforge-1.3.3。
 
@@ -59,8 +60,8 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：017FCDFFC42ACB3306C6D80D693173FA2A1EF8DA9376D78F242B340AF0167D15。
-- 安装包 SHA-256：017FCDFFC42ACB3306C6D80D693173FA2A1EF8DA9376D78F242B340AF0167D15。
+- 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：C0AEB94F4AEEB52515945EC8361582F042057B55396F9495AECF130040D66FDA。
+- 安装包 SHA-256：C0AEB94F4AEEB52515945EC8361582F042057B55396F9495AECF130040D66FDA。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。
 - 启动器图标：`PCL/Logo.png`；游戏窗口图标：`config/customwindowtitle/icon.png`，均使用 `天工创世图标v4.jpg` 生成。

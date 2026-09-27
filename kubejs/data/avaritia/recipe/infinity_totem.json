@@ -12,13 +12,13 @@
     }
   ],
   "base": {
-    "id": "minecraft:totem_of_undying"
+    "item": "minecraft:totem_of_undying"
   },
   "result": {
     "count": 1,
     "id": "avaritia:infinity_totem"
   },
   "template": {
-    "id": "avaritia:upgrade_smithing_template"
+    "item": "avaritia:upgrade_smithing_template"
   }
 }

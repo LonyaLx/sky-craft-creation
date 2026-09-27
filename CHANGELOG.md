@@ -1,5 +1,9 @@
 ## [1.1.1] - 2026-09-28
 
+### 1.1.1 发布前修复
+- 修复 `avaritia:extreme_smithing` 配方 `base`/`template` 使用 `id` 导致的 8 条配方解析失败，恢复无尽箱子、无尽鞘翅、中子马铠、无尽蛋糕、无尽水桶、无尽时钟、无尽图腾与极端铁砧配方。
+- 将工业先锋激光钻头的超 9 格无序配方改为 9 格有序配方，修复 JEI broken recipe。
+
 ### 1.1.1 发布摘要
 - 模组数量 218 → 232；新增 Iron Furnaces、Dyson Cube Project、Click Machine、Simple Backups、Overloaded Armor Bar、Polymorph、FTB Quest Enhance、Euphoria Patcher、AllTheCompressed、AllTheModium、AllTheOres、Almost Unified、Almost Unified IE、Ex Machinis Deorum。
 - 下界恢复原版生成；补齐 ProjectE 等模组物品汉化；修复 Avaritia 无尽水桶所需粉雪桶来源。
