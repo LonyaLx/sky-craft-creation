@@ -5,98 +5,188 @@
     "before": [
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "mekanism:creative_energy_cube"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "mekanism:creative_fluid_tank"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "mekanism:creative_chemical_tank"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "mekanism:creative_bin"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "create:creative_motor"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "create:creative_crate"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "create:creative_fluid_tank"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "pneumaticcraft:creative_compressed_iron_block"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "draconicevolution:creative_capacitor"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "jdte:creative_upgrade"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "projecte:dark_matter"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "projecte:red_matter"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:tiangong_alloy_frame"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:quantum_control_matrix"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:endless_structure_core"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:chaotic_heart"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:tiangong_heart"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "kubejs:creation_convergence_core"
       },
       {
         "type": "projecte:item",
-        "emc_value": 0,
+        "emc_value": "0",
         "id": "functionalstorage:netherite_upgrade"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:coast_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:dune_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:eye_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:host_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:raiser_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:rib_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:sentry_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:silence_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:snout_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:spire_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:tide_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:vex_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:ward_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:wayfinder_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "minecraft:wild_armor_trim_smithing_template"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": "0",
+        "id": "avaritia:upgrade_smithing_template"
       }
     ]
   }

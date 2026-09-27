@@ -1,5 +1,9 @@
 ## [1.1.1] - 2026-09-28
 
+### ProjectE 数据修复
+- 修复 `moderate_zero_emc.json` 中 `emc_value` 使用数字导致的 ProjectE 自定义转换解析错误，统一改为字符串。
+- 将 17 个原版锻造模板与 Avaritia 升级模板加入 0 EMC 列表，消除盔甲纹饰模板 EMC 刷取警告。
+
 ### 1.1.1 发布前修复
 - 修复 `avaritia:extreme_smithing` 配方 `base`/`template` 使用 `id` 导致的 8 条配方解析失败，恢复无尽箱子、无尽鞘翅、中子马铠、无尽蛋糕、无尽水桶、无尽时钟、无尽图腾与极端铁砧配方。
 - 将工业先锋激光钻头的超 9 格无序配方改为 9 格有序配方，修复 JEI broken recipe。
