@@ -14,6 +14,7 @@
 - 空岛来源复扫发现并修复 Avaritia 无尽水桶所需粉雪桶：新增“桶 + 4 雪球 → 粉雪桶”。
 - 1.1.1 发布前修复 Avaritia extreme_smithing 的 base/template 字段，并修复 Industrial Foregoing 激光钻头 JEI broken recipe。
 - 修复 ProjectE Zero-EMC 数据的 emc_value 格式，并把 17 个锻造模板与 Avaritia 升级模板设为 0 EMC。
+- 清理 AllTheCompressed/Ex Deorum/Ex Compressum 的 314 个无用兼容方块（JEI/创造页隐藏 + 透明纹理），并修复 FullEng 终端与 AE2 Utility 配方查找器纹理。
 - 新增终局合成、ProjectE 与无尽装备章节，最终目标为创造收敛核心。
 - 已加入 Create Ultimine 1.21.1-neoforge-1.3.3。
 
@@ -61,8 +62,8 @@
 - 任务链备份：`_excluded/creative_quest_chain_20260910_215512/`。
 - 最终发布目录：`C:\Users\admin\Desktop\天工创世-发布`。
 - 发布渠道：BBSMC、MCMOD、CurseForge；不发布 Modrinth。
-- 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：CBE06E4736DC41CC4272694E4DA431A746E083DE4E75721859D527772D32A7BE。
-- 安装包 SHA-256：CBE06E4736DC41CC4272694E4DA431A746E083DE4E75721859D527772D32A7BE。
+- 唯一安装包：`01-整合包/天工创世-1.1.1-CurseForge.zip`；175 个模组由启动器下载，57 个随包提供。大小 81.39 MB，SHA-256：F15FBC91426DFF83B7DDE20031CDC9563A20E141C9707895FA238EF577755932。
+- 安装包 SHA-256：F15FBC91426DFF83B7DDE20031CDC9563A20E141C9707895FA238EF577755932。
 - 发布目录维护规则：`天工创世-发布\00-维护\更新流程.md`。
 - GitHub 发布规则：每个版本一个独立 Release，附件使用 ASCII 文件名 `sky-craft-creation-<版本>-CurseForge.zip`，保留各版本标签。
 - 发布封面：使用 `C:\Users\admin\Desktop\天工创世-发布\封面\天工创世封面_空岛版.jpg`，文件名不写版本号，并同步为安装包根目录 `cover.jpg`；不再使用旧封面模板生成流程。

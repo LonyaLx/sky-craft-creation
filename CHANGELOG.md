@@ -1,5 +1,10 @@
 ## [1.1.1] - 2026-09-28
 
+### 无用兼容模型清理
+- 将 AllTheCompressed、Ex Deorum、Ex Compressum 中依赖未安装模组的 314 个兼容方块从 JEI 与创造页隐藏，并将其缺失纹理替换为透明纹理，避免模型警告。
+- 修复 Fullblock Energistics 转化终端缺失纹理，复用 AE2 终端亮/中/暗纹理。
+- 修复 AE2 Utility 配方查找器模型错误引用 `minecraft:item/compass` 的问题，改用 `minecraft:item/compass_00`。
+
 ### ProjectE 数据修复
 - 修复 `moderate_zero_emc.json` 中 `emc_value` 使用数字导致的 ProjectE 自定义转换解析错误，统一改为字符串。
 - 将 17 个原版锻造模板与 Avaritia 升级模板加入 0 EMC 列表，消除盔甲纹饰模板 EMC 刷取警告。
